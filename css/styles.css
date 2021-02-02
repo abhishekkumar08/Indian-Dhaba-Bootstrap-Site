@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 .row-header {
   margin: 0px auto;
   padding: 0px;
@@ -39,7 +41,7 @@ body {
   padding: 10px;
 }
 .carousel {
-  background: #03A9F4;
+  background: #03a9f4;
 }
 
 .carousel-item {
@@ -51,4 +53,9 @@ body {
   top: 0;
   left: 0;
   min-height: 300px;
+}
+
+*{
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
 }
