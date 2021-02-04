@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 $lt-gray: #ddd;
-$background-dark: #4285f4;
-$background-light: #03a9f4;
-$background-pale: #d1c4e9;
+$background-dark: #512da8;
+$background-light: #a657ae;
+$background-pale: #f56476;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -44,6 +44,7 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
   font-family: Roboto, sans-serif;
+  background-color: #f5ec6b;
 }
 
 .navbar-dark {
