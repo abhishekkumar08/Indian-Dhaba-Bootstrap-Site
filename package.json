@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a website for The Indian Dhaba",
   "main": "index.html",
-  "homepage": "http://abhishekkumar08.github.io/my-app",
+  "homepage": "https://abhishekkumar08.github.io/Indian-Dhaba-Bootstrap-Site",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,9 @@
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
