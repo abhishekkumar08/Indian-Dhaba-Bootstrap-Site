@@ -17,3 +17,5 @@ $("#loginButton").click(function () {
 $("#reserveButton").click(function () {
   $("#ReserveModal").modal("show");
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
